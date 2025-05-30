@@ -1,0 +1,15 @@
+@font-face {
+  font-family: Figtree;
+  src: url("../src/assets/fonts/Figtree-Medium.ttf"), format("ttf"),
+}
+  
+@import "tailwindcss";
+
+
+@theme {
+  --font-figtree: Figtree, "sans-serif"
+}
+
+@theme {
+  --color-custom-primary: #f6d050;
+}
